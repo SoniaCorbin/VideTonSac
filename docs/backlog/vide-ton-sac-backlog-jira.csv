@@ -1,0 +1,73 @@
+Issue Type,Summary,Description,Epic Link,Priority,Story Points,Labels
+Epic,"EPIC A - Dépôt & Catharsis","Parcours principal: dépôt de plainte, choix du besoin, expérience de catharsis en moins de 2 minutes.",,Highest,,"mvp,catharsis,p0"
+Epic,"EPIC B - Social empathique","Interactions communautaires non toxiques avec réactions empathiques et consentement explicite.",,High,,"social,safety,p0"
+Epic,"EPIC C - Sécurité, modération, confidentialité","Réduction du risque (PII, haine, détresse) et contrôle utilisateur sur les données.",,Highest,,"moderation,privacy,p0"
+Epic,"EPIC D - Journal, fil, tendances","Journal privé, fil communautaire et tendances anonymisées.",,Medium,,"community,insights,p1"
+Epic,"EPIC E - Design system & illustrations","Intégration direction visuelle, illustrations et microcopies.",,Medium,,"design,brand,p1"
+Epic,"EPIC F - Qualité, analytics & conformité","Mesure KPI, performance, accessibilité et pré-audit Loi 25.",,High,,"quality,analytics,compliance,p0"
+
+Story,"US-A1 Déposer une plainte (1-500 caractères)","En tant qu’utilisateur·rice, je veux écrire une plainte courte afin de ventiler rapidement.","EPIC A - Dépôt & Catharsis",Highest,5,"mvp,p0"
+Story,"US-A2 Choisir catégorie + intensité","En tant qu’utilisateur·rice, je veux choisir une catégorie et un niveau d’intensité pour contextualiser mon ressenti.","EPIC A - Dépôt & Catharsis",Highest,3,"mvp,p0"
+Story,"US-A3 Écran 'Tu veux quoi, là maintenant ?'","En tant qu’utilisateur·rice, je veux choisir mon besoin immédiat parmi 4 options de catharsis.","EPIC A - Dépôt & Catharsis",Highest,3,"mvp,p0"
+Story,"US-A4 Parcours 'Juste ventiler'","En tant qu’utilisateur·rice, je veux recevoir une validation courte et une animation apaisante.","EPIC A - Dépôt & Catharsis",High,3,"catharsis,p0"
+Story,"US-A5 Parcours 'En rire'","En tant qu’utilisateur·rice, je veux transformer ma plainte en version humoristique sécuritaire.","EPIC A - Dépôt & Catharsis",High,5,"humour,p1"
+Story,"US-A6 Parcours 'Prendre du recul'","En tant qu’utilisateur·rice, je veux faire une respiration guidée de 30 secondes.","EPIC A - Dépôt & Catharsis",High,3,"wellbeing,p0"
+Story,"US-A7 Parcours 'Mini-solution'","En tant qu’utilisateur·rice, je veux recevoir une seule micro-action faisable maintenant.","EPIC A - Dépôt & Catharsis",Medium,3,"catharsis,p1"
+
+Story,"US-B1 Réactions empathiques sans commentaire libre par défaut","En tant que membre de la communauté, je veux réagir sans ouvrir la porte à la toxicité.","EPIC B - Social empathique",Highest,3,"social,p0,safety"
+Story,"US-B2 Consentement pour commentaires textuels","En tant qu’auteur·rice, je veux activer/désactiver les commentaires textuels sur mon post.","EPIC B - Social empathique",High,3,"consent,p1"
+Story,"US-B3 Publication anonyme/pseudo","En tant qu’utilisateur·rice, je veux contrôler mon niveau d’anonymat au partage.","EPIC B - Social empathique",High,3,"privacy,p1"
+
+Story,"US-C1 Filtre PII / doxxing pré-publication","En tant que plateforme, je dois détecter et bloquer les infos identifiantes sensibles.","EPIC C - Sécurité, modération, confidentialité",Highest,8,"moderation,p0,privacy"
+Story,"US-C2 Filtre haine / harcèlement","En tant que plateforme, je dois refuser les contenus haineux ou harcelants et expliquer brièvement pourquoi.","EPIC C - Sécurité, modération, confidentialité",Highest,8,"moderation,p0,safety"
+Story,"US-C3 Détection détresse sérieuse + redirection","En tant que plateforme, je dois orienter vers des ressources appropriées en cas de signaux de crise.","EPIC C - Sécurité, modération, confidentialité",Highest,8,"safety,p0,crisis"
+Story,"US-C4 Export / suppression données","En tant qu’utilisateur·rice, je veux exporter et supprimer mes données personnelles.","EPIC C - Sécurité, modération, confidentialité",High,5,"privacy,p1,law25"
+
+Story,"US-D1 Journal privé","En tant qu’utilisateur·rice, je veux conserver mes dépôts en privé et les gérer.","EPIC D - Journal, fil, tendances",Medium,3,"journal,p1"
+Story,"US-D2 Fil communautaire","En tant qu’utilisateur·rice, je veux voir des publications anonymes avec réactions empathiques.","EPIC D - Journal, fil, tendances",Medium,5,"feed,p1"
+Story,"US-D3 Tendances anonymisées","En tant qu’utilisateur·rice, je veux voir les tendances sans identifier les personnes.","EPIC D - Journal, fil, tendances",Low,5,"insights,p2"
+
+Story,"US-E1 Intégration palette et surfaces","En tant qu’équipe produit, nous voulons appliquer le système visuel défini au CDC.","EPIC E - Design system & illustrations",Medium,3,"design,p1"
+Story,"US-E2 Intégration des 5 assets illustrés","En tant qu’utilisateur·rice, je veux des visuels cohérents aux moments émotionnels clés.","EPIC E - Design system & illustrations",Medium,5,"illustration,p1"
+Story,"US-E3 Microcopies québécoises inclusives","En tant qu’utilisateur·rice, je veux un ton complice, chaleureux et non jugeant.","EPIC E - Design system & illustrations",Medium,3,"content,p1"
+
+Story,"US-F1 Instrumentation KPI","En tant qu’équipe produit, nous voulons mesurer la complétion et le ressenti post-session.","EPIC F - Qualité, analytics & conformité",High,5,"analytics,p0"
+Story,"US-F2 Mesure 'je me sens plus léger'","En tant qu’équipe produit, nous voulons capter un indicateur simple de soulagement.","EPIC F - Qualité, analytics & conformité",High,2,"analytics,p1"
+Story,"US-F3 Performance perçue","En tant qu’utilisateur·rice, je veux une app qui semble immédiate sur téléphone courant.","EPIC F - Qualité, analytics & conformité",High,5,"performance,p1"
+Story,"US-F4 Accessibilité","En tant qu’utilisateur·rice, je veux une app utilisable avec lecteur d’écran et texte ajustable.","EPIC F - Qualité, analytics & conformité",High,5,"a11y,p0"
+Story,"US-F5 Pré-audit Loi 25","En tant qu’équipe, nous voulons une checklist de conformité avant bêta publique.","EPIC F - Qualité, analytics & conformité",High,3,"compliance,p1,law25"
+
+Task,"T-A1-DEV Validation longueur + compteur","Implémenter validation 1-500 caractères + feedback utilisateur.","US-A1 Déposer une plainte (1-500 caractères)",High,2,"dev,mvp"
+Task,"T-A1-QA Cas limites saisie","Tester 0,1,500,501 caractères, emojis, collage texte long.","US-A1 Déposer une plainte (1-500 caractères)",High,1,"qa,mvp"
+Task,"T-A2-DEV Modèle catégorie/intensité","Ajouter champs catégorie et intensité au modèle + UI sélecteurs.","US-A2 Choisir catégorie + intensité",High,2,"dev,mvp"
+Task,"T-A3-UX Écran choix besoin","Concevoir et intégrer écran avec 4 cartes de besoins.","US-A3 Écran 'Tu veux quoi, là maintenant ?'",High,2,"ux,dev,mvp"
+Task,"T-A4-MOTION Animation déposer le sac","Intégrer animation légère de soulagement.","US-A4 Parcours 'Juste ventiler'",Medium,1,"motion,ui"
+Task,"T-A5-DEV Génération humour sécurisée","Connecter pipeline de reformulation + garde-fous de ciblage.","US-A5 Parcours 'En rire'",High,3,"ai,safety"
+Task,"T-A6-DEV Respiration 30s","Créer minuteur respiratoire + pattern visuel d’ondes.","US-A6 Parcours 'Prendre du recul'",High,2,"wellbeing,dev"
+Task,"T-A7-DEV Micro-action unique","Générer une seule suggestion avec tonalité optionnelle.","US-A7 Parcours 'Mini-solution'",Medium,2,"dev,content"
+
+Task,"T-B1-DEV Réactions empathiques","Remplacer réactions génériques par set CDC.","US-B1 Réactions empathiques sans commentaire libre par défaut",High,2,"social,dev"
+Task,"T-B2-DEV Toggle commentaires","Ajouter consentement commentaires avant/après publication.","US-B2 Consentement pour commentaires textuels",Medium,2,"consent,dev"
+Task,"T-B3-DEV Anonyme/pseudo","Ajouter choix identité et affichage état avant publication.","US-B3 Publication anonyme/pseudo",Medium,2,"privacy,dev"
+
+Task,"T-C1-ML Règles PII","Détecter email, téléphone, adresse, nom complet probable.","US-C1 Filtre PII / doxxing pré-publication",High,3,"moderation,safety"
+Task,"T-C1-UX Message de réécriture","Rédiger message bref, clair, non culpabilisant.","US-C1 Filtre PII / doxxing pré-publication",High,1,"ux,content"
+Task,"T-C2-ML Politique haine/harcèlement","Classifier + seuils + blocage publication.","US-C2 Filtre haine / harcèlement",High,3,"moderation,safety"
+Task,"T-C3-SAFE Flux détresse","Bypass humour + afficher ressources + CTA urgence.","US-C3 Détection détresse sérieuse + redirection",Highest,3,"crisis,safety"
+Task,"T-C4-DEV Export JSON/CSV","Permettre export des données utilisateur.","US-C4 Export / suppression données",Medium,2,"privacy,dev"
+Task,"T-C4-DEV Suppression compte","Suppression logique + purge planifiée selon politique.","US-C4 Export / suppression données",Medium,2,"privacy,backend"
+
+Task,"T-D1-DEV Journal privé UI","Liste, recherche simple, suppression item.","US-D1 Journal privé",Medium,2,"journal,dev"
+Task,"T-D2-DEV Fil communautaire","Affichage posts anonymes + réactions + consentement commentaires.","US-D2 Fil communautaire",Medium,3,"feed,dev"
+Task,"T-D3-DATA Agrégations tendances","Vue agrégée catégorie/volume sans identifiants.","US-D3 Tendances anonymisées",Low,3,"analytics,data"
+
+Task,"T-E1-UI Implémentation thème","Tokens couleur + composants cartes/surfaces.","US-E1 Intégration palette et surfaces",Medium,2,"design-system,ui"
+Task,"T-E2-ASSET Intégration illustrations","Brancher accueil + 4 modes catharsis.","US-E2 Intégration des 5 assets illustrés",Medium,2,"assets,ui"
+Task,"T-E3-CONTENT Banque microcopies","Écrire/valider microcopies FR-CA inclusives.","US-E3 Microcopies québécoises inclusives",Medium,2,"content,ux"
+
+Task,"T-F1-DATA Schéma événements","Définir events + propriétés + plan de tracking.","US-F1 Instrumentation KPI",High,2,"analytics,data"
+Task,"T-F1-DEV Instrumentation front/back","Implémenter tracking clés du parcours.","US-F1 Instrumentation KPI",High,2,"analytics,dev"
+Task,"T-F2-UX Prompt ressenti","Ajouter question post-session non intrusive.","US-F2 Mesure 'je me sens plus léger'",Medium,1,"ux,analytics"
+Task,"T-F3-PERF Budget perf","Définir budget et seuils p95 pour feed/envoi.","US-F3 Performance perçue",Medium,2,"performance"
+Task,"T-F4-A11Y Audit lecteur écran","Parcours VoiceOver/TalkBack + correctifs.","US-F4 Accessibilité",High,2,"a11y,qa"
+Task,"T-F5-LEGAL Checklist Loi 25","Documenter écarts, risques, actions bloquantes.","US-F5 Pré-audit Loi 25",High,2,"legal,compliance"
